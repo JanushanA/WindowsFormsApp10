@@ -41,5 +41,32 @@ namespace WindowsFormsApp10
         {
 
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            ShowScreen(new Inventory());
+        }
+
+        private void ShowScreen(UserControl newScreen)
+        {
+            foreach (Control ctrl in pnlContent.Controls)
+            {
+                ctrl.Dispose();
+            }
+
+            pnlContent.Controls.Clear();
+            newScreen.Dock = DockStyle.Fill;
+            pnlContent.Controls.Add(newScreen);
+        }
+
+        private void btnCheckOut_Click(object sender, EventArgs e)
+        {
+            ShowScreen(new CheckOut());
+        }
+
+        private void btnHome_Click(object sender, EventArgs e)
+        {
+            ShowScreen(new Home());
+        }
     }
 }

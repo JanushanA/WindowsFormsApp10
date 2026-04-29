@@ -10,21 +10,11 @@ using System.Windows.Forms;
 
 namespace WindowsFormsApp10
 {
-    public partial class Inventory : UserControl
+    public partial class Home : UserControl
     {
-        public Inventory()
+        public Home()
         {
             InitializeComponent();
-        }
-
-        private void btnAdd_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void btnUpdate_Click(object sender, EventArgs e)
-        {
-
         }
     }
 }
