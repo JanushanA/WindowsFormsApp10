@@ -16,9 +16,18 @@ namespace WindowsFormsApp10
         {
             InitializeComponent();
         }
+        string id;
+        string name;
+        string price;
+        string brand;
 
         private void btnAdd_Click(object sender, EventArgs e)
         {
+            id = txtID.Text;
+            name = txtName.Text;
+            price = txtPrice.Text;
+            brand = txtBrand.Text;
+
 
         }
 

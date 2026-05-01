@@ -29,40 +29,40 @@
         private void InitializeComponent()
         {
             this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.button1 = new System.Windows.Forms.Button();
-            this.checkBox1 = new System.Windows.Forms.CheckBox();
+            this.cbReceipt = new System.Windows.Forms.CheckBox();
+            this.btnPurchase = new System.Windows.Forms.Button();
             this.groupBox1.SuspendLayout();
             this.SuspendLayout();
             // 
             // groupBox1
             // 
-            this.groupBox1.Controls.Add(this.checkBox1);
-            this.groupBox1.Controls.Add(this.button1);
+            this.groupBox1.Controls.Add(this.cbReceipt);
+            this.groupBox1.Controls.Add(this.btnPurchase);
             this.groupBox1.Location = new System.Drawing.Point(41, 38);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(287, 259);
+            this.groupBox1.Size = new System.Drawing.Size(560, 376);
             this.groupBox1.TabIndex = 0;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "groupBox1";
             // 
-            // button1
+            // cbReceipt
             // 
-            this.button1.Location = new System.Drawing.Point(19, 57);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(75, 23);
-            this.button1.TabIndex = 0;
-            this.button1.Text = "button1";
-            this.button1.UseVisualStyleBackColor = true;
+            this.cbReceipt.AutoSize = true;
+            this.cbReceipt.Location = new System.Drawing.Point(267, 306);
+            this.cbReceipt.Name = "cbReceipt";
+            this.cbReceipt.Size = new System.Drawing.Size(110, 17);
+            this.cbReceipt.TabIndex = 2;
+            this.cbReceipt.Text = "Generate Receipt";
+            this.cbReceipt.UseVisualStyleBackColor = true;
             // 
-            // checkBox1
+            // btnPurchase
             // 
-            this.checkBox1.AutoSize = true;
-            this.checkBox1.Location = new System.Drawing.Point(19, 101);
-            this.checkBox1.Name = "checkBox1";
-            this.checkBox1.Size = new System.Drawing.Size(80, 17);
-            this.checkBox1.TabIndex = 2;
-            this.checkBox1.Text = "checkBox1";
-            this.checkBox1.UseVisualStyleBackColor = true;
+            this.btnPurchase.Location = new System.Drawing.Point(169, 302);
+            this.btnPurchase.Name = "btnPurchase";
+            this.btnPurchase.Size = new System.Drawing.Size(75, 23);
+            this.btnPurchase.TabIndex = 0;
+            this.btnPurchase.Text = "Purchase";
+            this.btnPurchase.UseVisualStyleBackColor = true;
             // 
             // CheckOut
             // 
@@ -80,7 +80,7 @@
         #endregion
 
         private System.Windows.Forms.GroupBox groupBox1;
-        private System.Windows.Forms.CheckBox checkBox1;
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.CheckBox cbReceipt;
+        private System.Windows.Forms.Button btnPurchase;
     }
 }

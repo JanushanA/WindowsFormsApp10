@@ -35,7 +35,7 @@
             this.colPrice = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.colName = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.gbAdd = new System.Windows.Forms.GroupBox();
-            this.textID = new System.Windows.Forms.TextBox();
+            this.txtID = new System.Windows.Forms.TextBox();
             this.label4 = new System.Windows.Forms.Label();
             this.txtDelete = new System.Windows.Forms.TextBox();
             this.txtBrand = new System.Windows.Forms.TextBox();
@@ -93,7 +93,7 @@
             // gbAdd
             // 
             this.gbAdd.BackColor = System.Drawing.SystemColors.GradientActiveCaption;
-            this.gbAdd.Controls.Add(this.textID);
+            this.gbAdd.Controls.Add(this.txtID);
             this.gbAdd.Controls.Add(this.label4);
             this.gbAdd.Controls.Add(this.txtDelete);
             this.gbAdd.Controls.Add(this.txtBrand);
@@ -112,12 +112,12 @@
             this.gbAdd.TabStop = false;
             this.gbAdd.Text = "Add Or Delete Product";
             // 
-            // textID
+            // txtID
             // 
-            this.textID.Location = new System.Drawing.Point(48, 44);
-            this.textID.Name = "textID";
-            this.textID.Size = new System.Drawing.Size(100, 20);
-            this.textID.TabIndex = 11;
+            this.txtID.Location = new System.Drawing.Point(48, 44);
+            this.txtID.Name = "txtID";
+            this.txtID.Size = new System.Drawing.Size(100, 20);
+            this.txtID.TabIndex = 11;
             // 
             // label4
             // 
@@ -236,7 +236,7 @@
         private System.Windows.Forms.DataGridViewTextBoxColumn colPrice;
         private System.Windows.Forms.DataGridViewTextBoxColumn colName;
         private System.Windows.Forms.GroupBox gbAdd;
-        private System.Windows.Forms.TextBox textID;
+        private System.Windows.Forms.TextBox txtID;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.TextBox txtDelete;
         private System.Windows.Forms.TextBox txtBrand;
